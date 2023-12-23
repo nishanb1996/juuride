@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar */
+
+.navbar{
+margin-bottom: 105px;
+}
+
+.nav-link{
+    font-size: 20px;
+    font-weight:600;
+}
+
+
+.navbar-nav .nav-item a.nav-link:hover {
+    color: #F27405 !important;
+} 
+a .active {
+    color:#F27405 !important; 
+}
+
+/* .nav-item.active a {
+    color:#F27405 !important; 
+} */
+
+/* .navbar-nav .nav-item.active a {
+    background-color: #007bff !important;
+    color: #fff !important;
+  } */
+ .navbar-nav .nav-item .nav-link.active {
+    color:#F27405 !important; 
+}
+
+@media (max-width: 768px) {
+   .navbar-brand button{
+   height: 40px;
+    }
+}
+
+
+/* index */
+
+
+.top_content p{
+    text-align: left;
+    font-size: 47px ;
+    font-weight: bolder;
+    letter-spacing: 0px;
+    color: #141A30;
+    line-height: 60px;
+}
+
+@media (max-width: 768px) {
+    .top_content p{
+        font-size: 44px; /* Adjust the font size for smaller screens */
+    }
+}
+
+@media (max-width: 425px) {
+    .top_content p{
+        font-size: 32px; /* Adjust the font size for smaller screens */
+        line-height: 40px;
+    }
+}
+
+.top_content button{
+    width: 180px; 
+    /* border-color: #F27405; */
+    border-width: 2px;
+    color:#F27405 ;
+}
+
+@media (max-width: 425px) {
+    .top_content {
+       text-align: center;
+    }
+}
+
+.btn1{
+    background: linear-gradient(to right, #F2B90F,#F27405); 
+    color:white !important;
+    width: 180px;
+}
+
+.top_ride img{
+    
+    left: 899px;
+    width: 615px;
+   
+}
+
+.ride_card{
+    padding-top:13vw;
+}
+
+.card1 .card {
+    border-color: blue;
+    border-radius: 17px;
+    width:20rem;
+    background-color: #0137DD;
+    margin-left: 12px;
+  }
+
+  @media (max-width:768px) {
+    .card1 .card {
+      width:230px;
+    }
+}
+  .card1 .card p{
+    font-size: 17px;
+  }
+  .card-body {
+    height: 250px; /* Set your desired fixed height */
+    overflow: auto; /* Add overflow for cases where content might exceed the fixed height */
+}
+
+.drive-value h1{
+    font-size: 47px;
+    font-weight:600;
+}
+
+.drive-value p{
+    font-size: 28px;
+    font-weight:500;
+    color: rgb(62, 62, 62);
+}
+
+@media (max-width: 425px) {
+   .drive-value h1{
+        font-size: 28px;
+   }
+   .drive-value p{
+    font-size: 20px;
+   }
+}
+.dval-img img{
+    
+    width: 600px;
+}
+
+.data{
+    padding-top:13vw;
+    padding-bottom: 13vw;
+}
+
+.bottom{
+    background: linear-gradient(#002ADB,#00156E); 
+    color:white !important; 
+   margin-bottom: 0px;
+padding-bottom: 0px;
+}
+@media (max-width: 425px) {
+.bottom h3{
+    font-size:18px ;
+    text-align: justify;
+   
+}
+
+    .foot{
+        padding-left: 0px;
+        margin-left: 0px;
+        padding-right: 50px;
+    }
+
+    .foot1 p{
+        text-align: justify;
+    }
+}
+
+
+
+
+/* footer */
+
+.footer{
+    background-color:#F5F6FA;
+}
+
+
+  .list li {
+    display: inline;
+    margin-right: 40px; 
+}
+
+.links ul li a {
+    text-decoration: none; 
+    color: #333;
+}
+
+
+/* about_us */
+
+.about img{
+  width:420px ;
+  margin:0px 0px 30px 20px ;
+}
+
+.about h1{
+    font-size: 45px;
+    font-weight: bold;
+  padding-top: 70px;
+}
+
+.about p {
+    font-size: 20px; 
+    font-weight: 500; 
+    text-align: justify;
+}
+
+.about img{
+    width:420px ;
+    margin:0px 0px 30px 20px ;
+  }
+
+.about label{
+    background: linear-gradient(to right, #F2B90F,#F27405); 
+    color:white ;
+    width: 180px; 
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    height: 40px;
+    line-height: 40px;
+}
+#ch{
+    display: none;
+}
+#ch:checked ~ .abtcontent{
+    display: block;
+}
+
+#ch:checked ~ label{
+    display: none;
+}
+.abtcontent{
+    display: none;
+}
+
+.about-foot{
+max-width: 800px;
+padding-top:10vw;
+margin: auto;
+
+}
+
+@media (max-width: 425px) {
+    .about h1{
+        font-size: 20px;
+        font-weight: bold;
+     
+    }
+    
+    .about p {
+        font-size: 16px; 
+        font-weight: 500; 
+        text-align: justify;
+    }
+
+    .about label{
+       
+        width: 140px; 
+        font-size: 16px;
+       
+        height: 30px;
+        line-height: 30px;
+    }
+ }
+
+ 
+
+/* contact_us */
+
+
+.contact{
+    padding-top:3vw;
+}
+.contact h1{
+    font-size: 45px;
+    font-weight: bold;
+}
+
+.contact p {
+    font-size: 20px; 
+    font-weight: 500; 
+    /* text-align: justify; */
+  
+}
+
+.contact img{
+  width:420px ;
+}
+
+.cform{
+    margin-top: 10vw ;
+    margin-bottom:6vw;
+}
+
+@media (max-width: 425px) {
+    .contact h1{
+        font-size: 23px;
+        font-weight: bold;
+     
+    }
+    
+    .contact p {
+        font-size: 16px; 
+        font-weight: 500; 
+        text-align: justify;
+    }
+
+  .cform h3{
+    font-size: 20px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+  }
+ }
+
+ .services-top{
+    margin-bottom: 150px;
+}
+
+.service-con h1{
+    font-size: 47px;
+    font-weight:700;
+}
+
+.service-con h3{
+    /* font-size: 47px; */
+    font-weight:600;
+    color: #333;
+    
+}
+
+.service-con p{
+    font-size: 22px;
+    font-weight:500;
+    color: rgb(62, 62, 62);
+}
+
+@media (max-width: 425px) {
+    .service-con h1{
+        font-size: 28px;
+        font-weight:700;
+        margin-top: 10px;
+    }
+    
+    .service-con h3{
+        font-size: 20px;
+        font-weight:600;
+        color: #333;
+        
+    }
+    
+    .service-con p{
+        font-size: 15px;
+       
+    }
+
+    .services-top{
+        background-color: #f3f3f395;
+        margin-top: 0px;
+        padding-top: 0px;
+    }
+    .navbar{
+        margin-bottom: 0px;
+    }
+ }
